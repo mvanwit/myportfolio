@@ -161,7 +161,31 @@ a:focus {
     }
 }
 
+.btn-cv {
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    padding: 0px 16px 41px 14px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-cv:hover,
+.btn-cv:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
 .btn-circle {
+    position:absolute;
+    top: 300px;
     width: 70px;
     height: 70px;
     margin-top: 15px;
@@ -201,45 +225,6 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-.btn-cv {
-    width: 100px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid #fff;
-    border-radius: 10px;
-    font-size: 40px;
-    color: #fff;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.btn-cv:hover,
-.btn-cv:focus {
-    outline: 0;
-    color: #fff;
-    background: rgba(255,255,255,.1);
-}
-
-.btn-cv i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}
-
-.btn-cv:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-}
 /*About*/
 .content-section {
     padding-top: 100px;
@@ -250,4 +235,22 @@ a:focus {
     padding-top: 100px;
     background-color: #3498DB;
     color: #FFF;
+}
+
+/*Portfolio*/
+#portfolio{
+    padding-top: 100px;
+}
+/*Contact*/
+#contact {
+    padding-top: 100px;
+    background-color: #3498DB;
+    color: #FFF;
+}
+
+/*Footer*/
+footer {
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 10px 0;
 }
